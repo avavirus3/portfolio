@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "title": "Almuktar",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "homepage": {
+    "hello": "Hello my name is",
+    "fullname": { "fName": "MohammedAlmukhtar", "lName": "Yahya" },
+    "intro": " I'm a traditional doctor(healer)"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I am a traditional doctor(healer). I can provide you medicinal herbs.I can also provide mindbody therapy. And provide spiritual healing using quran.",
+    "btnValue": "Lets talk"
+  },
+  "services": {
+    "maintitle": "My Services ",
+    "subtitle_1": "Medicinal herbs",
+    "subtitle_2": "Spiritual healing",
+    "body_1": "I can cure patients' with diseases such as stomach aches, asthma, cancer, skin diseases, headaches and more using herbs.",
+    "body_2": "I can cure of possess by jinn(spirits) and diseases such as evil eyes by using The Holy Qur'an.In Sha Allah(if Allah wills) you can be healed."
+  },
+  "contacts": {
+    "intro": "for more information Contact me on"
+  }
+}
