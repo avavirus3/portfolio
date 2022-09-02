@@ -1,0 +1,276 @@
+/* .nav-container{
+  background: #000;
+  color: white;
+  display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 8%;
+	padding-right: 8%;
+  font-weight: bold;
+  font-size: 25px;
+}
+.nav-container .logo{
+ color: white;
+	font-size: 25px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.nav-container ul{
+  list-style-type: none;
+  display: flex;
+   padding: 2em;
+}
+.nav-container ul li{
+  padding: 1em;
+}
+a{
+  
+  color: white;
+  text-decoration: none;
+}
+
+
+span{
+  color: #8db600;
+  font-size: 46px;
+}
+.nav-container .contacts{
+  padding: 10px 25px;
+  background-color:  #8db600;
+  border-radius: 30px;
+  cursor: pointer ;
+  
+}
+
+.home-container{
+  
+ background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.712)) , url(./assets/trees.jpg);
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+.home-container h2{
+  font-size: 46px;
+}
+.home-card{
+  padding: 18% 10%;
+}
+.home-card > *{
+  padding: 12px;
+  letter-spacing: 2px;
+}
+.about {
+  background-color: #191919;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+.about img{
+  width: 630px;
+  filter: brightness(75%);
+}
+.about-container{
+  margin: 10%;
+  width: 600px;
+  font-size: 25px;
+}
+.about-container h2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 46px;
+    text-transform: capitalize;
+}
+.about-container .btn{
+  color: white;
+  padding: 10px 25px;
+  background-color:  #8db600;
+  border-radius: 30px;
+  font-size: 30px;
+  cursor: pointer ;
+
+}
+.services{
+background-color: #101010;
+color: #fff;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 4%;
+font-size: 25px;
+}
+.box{
+
+  display: flex;
+  justify-content: center;
+}
+.box h5{
+ font-size: 45px;
+ 
+ padding: 0em;
+}
+.box > *{
+margin-left: 4em;
+background-color: #191919;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 2px;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-container ul,
+  .nav-container .contacts {
+    display: none;
+  }
+  .nav-container {
+    background-color: #000;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .nav-container a {
+    text-decoration: none;
+    color: white;
+  }
+  .home-container {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.658),
+        rgba(0, 0, 0, 0.712)
+      ),
+      url(./assets/trees.jpg);
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+  }
+  .home-container .home-card {
+    width: 200px;
+  }
+  .home-container .home-card h4 {
+    color: #7ca100;
+  }
+
+  span {
+    color: #b5e900;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191919;
+    color: white;
+  }
+  .about img {
+    width: 320px;
+    filter: brightness(75%);
+    border-radius: 50%;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  .about-container h2,
+  h5 {
+    padding: 1em;
+  }
+  .about-container p {
+    font-size: 20px;
+    font-family: Arial;
+    letter-spacing: 2px;
+  }
+  .about-container .btn {
+    margin-top: 16px;
+  }
+  .btn {
+    border-radius: 23px;
+    padding: 0.6em;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b5e900;
+    cursor: pointer;
+  }
+  .services {
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box,
+  .box-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    font-size: 20px;
+  }
+  .box-card p {
+    color: #7ca100;
+  }
+  h5 {
+    font-size: 28px;
+  }
+  .box-card p {
+    letter-spacing: 2px;
+  }
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body{font-size: 28px;}
+  .nav-container ul,
+  .nav-container .contacts {
+    display: none;
+  }
+  .nav-container {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  .btn {
+    border-radius: 16px;
+    padding: 0.6em;
+    font-size: 28px;
+    color: #fff;
+    background-color: #b5e900;
+    cursor: pointer;
+  }
+  .nav-container a {
+   text-decoration: none;
+    color: white;
+  }
+  .home-container{
+    height: 88vh;
+    color: white;
+     background-image: linear-gradient(
+        rgba(0, 0, 0, 0.658),
+        rgba(0, 0, 0, 0.712)
+      ),
+      url(./assets/trees.jpg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+       letter-spacing: 2px;
+  }
+} */
+
